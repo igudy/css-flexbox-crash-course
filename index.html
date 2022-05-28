@@ -6,50 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Flexbox Tutorial</title>
 
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
 </head>
 <body>
 
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Flexbox</h1>
+            <ul class="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Header Section -->
+
     <!-- Header Section -->
-    <header>
-        <h1>Flexbox</h1>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
+    <header class="header">
+        <div class="container">
+            <div>
+                <h1>Flexbox Crash Course</h1>
+                <p>This crash course was created by Brad Traversy to help you learn
+                    the basics of flexbox, and this code was written by Igudy.
+                    Flexbox is a very important and useful tool in css.
+                </p>
+            </div>
+            <img src="./images/grid.svg" alt="grid_svg" />
+        </div>
     </header>
     <!-- End of Header Section -->
 
-    <!-- Hero Section -->
-    <hero>
-        <h1>Flexbox Crash Course</h1>
-        <p>This crash course was created by Brad Traversy to help you learn
-            the basics of flexbox, and this code was written by Igudy.
-            Flexbox is a very important and useful tool in css.
-        </p>
-        <img src="" alt="" />
-    </hero>
-    <!-- End of Hero Section -->
-
     <!-- Body Section -->
     <section>
-        <h3>Alignment & Space</h3>
-        <p>A more efficient way to lay out align and distribute space
-            among items in a container.
-        </p>
+        <div class="container">
+            <div class="boxes">
+                <div class="box">
+                    <h3><i class="fas fa-arrows-alt-v"></i>Alignment & Space</h3>
+                    <p>A more efficient way to lay out align and distribute space
+                        among items in a container.
+                    </p>
+                </div>
 
-        <h3>Tricky</h3>
-        <p>Flexbox usually solves tricky problems including how to position
-            or dynamically resize elements on a page.
-        </p>
+                <div class="box">
+                    <h3 class="fas fa-arrows-alt">Tricky Positioning</h3>
+                    <p>Flexbox usually solves tricky problems including how to position
+                        or dynamically resize elements on a page.
+                    </p>
+                </div>
 
-        <h3>Responsive Design</h3>
-        <p>Flexbox makes building a website layout(and making it responsive)
-            much more easier
-        </p>
+                <div class="box">
+                    <h3><i class="fas fa-mobile"></i>Responsive Design</h3>
+                    <p>Flexbox makes building a website layout(and making it responsive)
+                        much more easier
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- End of Body Section -->
 
